@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Globalization;
-using System.Runtime.CompilerServices;
-using System.Text;
+﻿using System.Globalization;
+
 
 namespace ExercicioContaBancaria {
     class ContaBancaria {
@@ -37,10 +33,6 @@ namespace ExercicioContaBancaria {
                     + ", Titular: " + Titular 
                     + ", Saldo: $ " + Saldo.ToString("F2", CultureInfo.InvariantCulture);
                     }
-                    
-
-    
-
 
     }
 }
