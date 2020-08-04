@@ -6,7 +6,7 @@ namespace ExerInterfaces.Services
     class ContractService
     {
 
-        private IPaymentService _PaymentService;
+        private readonly IPaymentService _PaymentService;
 
         public ContractService(IPaymentService paymentService)
         {
